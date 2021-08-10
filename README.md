@@ -1,1 +1,5 @@
 # stock-articles-summary
+
+I am using an unsupervised learning model to create the article summariser hence if you look at the code there is no training of a dataset required. I will try using a supervised learning model and train it on a dataset of articles and summary which would be able to achieve a higher accuracy and hopefully a more articulate summary result.
+
+This type of unsupervised learning uses cosine similarity. "Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them". Using the algorithm written, we will be representing each sentence as a bunch of vectors and the lower the angle between the two sentences (vectors), the more similar they are hence obviously sentences with a cosine similarity of 0 are the same sentences.
